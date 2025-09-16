@@ -5,7 +5,7 @@ export default defineConfig({
     root: '.',
     resolve: {
         alias: {
-            expert: path.resolve(__dirname, '../Expert/package/core')
+            Verde: path.resolve(__dirname, '../Verde/package/core')
         }
     }
 })
