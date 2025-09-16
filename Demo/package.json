@@ -1,0 +1,20 @@
+{
+  "name": "Demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  
+  "scripts": {
+    "dev": "vite"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "dependencies": {
+    "expert": "file:../../Expert/package"
+  },
+  "devDependencies": {
+    "vite": "^7.1.5"
+  }
+}

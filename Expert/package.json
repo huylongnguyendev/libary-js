@@ -1,0 +1,24 @@
+{
+  "name": "Expert",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "exports": {
+    "./package/core/index": {
+      "import": "./package/core/index.js",
+      "types": "./package/core/index.d.ts"
+    }
+  },
+  "scripts": {
+    "start": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "devDependencies": {
+    "eslint": "^9.35.0",
+    "prettier": "^3.6.2",
+    "typescript": "^5.9.2"
+  }
+}
